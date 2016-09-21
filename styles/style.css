@@ -1,0 +1,210 @@
+*
+{
+	box-sizing: border-box;
+}
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	margin-bottom: 10px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h1
+{
+	margin-bottom: 0;
+	font-size: 3.125em;
+	line-height: 1.1;
+}
+
+h3
+{
+	font-size: 1.125em;
+}
+
+p, div, input
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+p
+{
+	max-width: 60em;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.6;
+	font-weight: 300;
+}
+
+form
+{
+	display: flex;
+}
+
+input
+{
+	margin: 0 10px;
+	font-size: 1em;
+}
+
+input[type=text]
+{
+	width: 100%;
+	padding-left: 10px;
+}
+
+input[type=submit]
+{
+	padding: 10px;
+	background-color: #00953b;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+
+.inner
+{
+	max-width: 1400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.dark
+{
+	color: #000;
+}
+
+.uppercase
+{
+	text-transform: uppercase;
+}
+
+.stronger
+{
+	font-weight: 400;
+}
+
+.masthead
+{
+	padding: 60px 0 30px;
+	background-color: #00953b;
+	color: #fff;
+}
+
+.masthead__logo
+{
+	display: inline-block;
+}
+
+.masthead__logo-img
+{
+	width: 50%;
+}
+
+.signup
+{
+	padding: 10px 0;
+	background-color: #000;
+	color: #fff;
+}
+
+.signup__form
+{
+	width: 100%;
+	max-width: 600px;
+	margin-left: 10px;
+}
+
+.signup .inner
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main
+{
+	padding: 20px 0 60px;
+}
+
+.brews
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.brew
+{
+	max-width: 250px;
+}
+
+.brew__inner
+{
+	width: 250px;
+	height: 154px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-image: url('/images/pump-clip.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.brew--pale
+{
+	color: #c99212;
+}
+
+.brew--primordial
+{
+	color: #3e0042;
+}
+
+.brew--genetic
+{
+	color: #e1261c;
+}
+
+.brew__text
+{
+	margin: 0;
+}
+
+.brew__percentage
+{
+	margin-bottom: 10px;
+}
+
+.social
+{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.social__icon
+{
+	width: 25px;
+	height: 25px;
+	margin: 0 10px;
+}
+
+.footer
+{
+	padding-bottom: 30px;
+}
