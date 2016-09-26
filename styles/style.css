@@ -38,26 +38,6 @@ h3 {
 	font-size: 1.25em;
 }
 
-@media (max-width: 600px) {
-	h1 {
-		font-size: 2.5em;
-	}
-
-	h2 {
-		font-size: 1.5em;
-	}
-
-	label {
-		display: block;
-	}
-
-	input[type=text],
-	input[type=email] {
-		width: 100%;
-		margin: 0 10px 0 0;
-	}
-}
-
 p, div, input {
 	font-family: 'Raleway', sans-serif;
 }
@@ -72,6 +52,10 @@ p {
 
 form {
 	display: flex;
+}
+
+label {
+	margin-right: 10px;
 }
 
 input {
@@ -98,6 +82,25 @@ input[type=submit] {
 }
 
 @media (max-width: 600px) {
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	label {
+		display: block;
+		margin-right: 0;
+	}
+
+	input[type=text],
+	input[type=email] {
+		width: 100%;
+		margin: 0 10px 0 0;
+	}
+
 	input[type=submit] {
 		margin-top: 15px;
 	}
