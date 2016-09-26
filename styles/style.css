@@ -1,3 +1,6 @@
+@import url('//hello.myfonts.net/count/322ac7');
+@font-face {font-family: 'VeneerClean-Reg';src: url('/fonts/322AC7_0_0.eot');src: url('/fonts/322AC7_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/322AC7_0_0.woff2') format('woff2'),url('/fonts/322AC7_0_0.woff') format('woff'),url('/fonts/322AC7_0_0.ttf') format('truetype');}
+
 /* Elements */
 
 * {
@@ -14,7 +17,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 10px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'VeneerClean-Reg', sans-serif;
 	font-style: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -48,7 +51,7 @@ p, div, input {
 
 p {
 	max-width: 40em;
-	margin: 0 auto;
+	margin: 0 auto 10px;
 	text-align: center;
 	line-height: 1.6;
 	font-weight: 300;
@@ -65,9 +68,10 @@ input {
 	-webkit-appearance: none;
 }
 
-input[type=text] {
-	width: 100%;
-	padding-left: 10px;
+input[type=text],
+input[type=email] {
+	flex-grow: 1;
+	padding: 10px;
 	border: 0;
 }
 
@@ -78,6 +82,12 @@ input[type=submit] {
 	text-transform: uppercase;
 	border: none;
 	cursor: pointer;
+}
+
+@media (max-width: 600px) {
+	input[type=submit] {
+		margin-top: 15px;
+	}
 }
 
 /* Frame */
@@ -141,20 +151,25 @@ input[type=submit] {
 	text-transform: uppercase;
 }
 
-.signup__form {
+.signup__form-wrapper {
 	width: 100%;
 	max-width: 600px;
-	margin-left: 10px;
+	margin: 10px auto 0;
 }
 
-.signup .inner {
+.mc-field-group,
+.signup__form,
+.signup__field-wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
 }
 
 @media (max-width: 600px) {
-	.signup .inner {
+	.mc-field-group,
+	.signup__form,
+	.signup__field-wrapper {
 		display: block;
 	}
 
