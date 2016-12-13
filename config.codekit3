@@ -7,7 +7,7 @@
 		"uuidString": "303C779B-B509-4623-99F7-8223385C3CC6"
 		}
 	],
-"creatorBuild": "25428",
+"creatorBuild": "25444",
 "files": {
 	"\/favicon-152.png": {
 		"ft": 32768,
@@ -46,6 +46,14 @@
 		"oA": 2,
 		"oAP": "\/fonts\/322AC7_0_0.woff2",
 		"oF": 0
+		},
+	"\/images\/dnale.png": {
+		"ft": 32768,
+		"iS": 105025,
+		"oA": 0,
+		"oAP": "\/images\/dnale.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/images\/facebook.svg": {
 		"ft": 2097152,

@@ -18,9 +18,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 10px;
 	font-family: 'VeneerClean-Reg', sans-serif;
-	font-style: 700;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 h1 {
@@ -48,6 +48,10 @@ p {
 	text-align: center;
 	line-height: 1.6;
 	font-weight: 300;
+}
+
+a {
+	color: white;
 }
 
 form {
@@ -154,6 +158,12 @@ input[type=submit] {
 	width: 50%;
 }
 
+.masthead__contact
+{
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+
 /* Signup */
 
 .signup {
@@ -203,15 +213,13 @@ input[type=submit] {
 .brews {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	margin-top: 50px;
 }
 
 @media (max-width: 760px) {
-	.brews {
-		display: inline-block;
-	}
-
 	.brew {
+		display: inline-block;
 		margin-bottom: 30px;
 	}
 
@@ -221,6 +229,8 @@ input[type=submit] {
 }
 
 .brew {
+	display: flex;
+	flex-direction: column;
 	max-width: 250px;
 }
 
@@ -230,11 +240,13 @@ input[type=submit] {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-grow: 1;
 	margin: 0 auto;
 	margin-bottom: 10px;
 	background-image: url('/images/pump-clip.png');
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .brew--pale {
@@ -255,6 +267,7 @@ input[type=submit] {
 
 .brew__percentage {
 	margin-bottom: 10px;
+	color: black;
 }
 
 /* Footer */
