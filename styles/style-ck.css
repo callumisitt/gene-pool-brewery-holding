@@ -193,20 +193,11 @@ input[type=submit] {
   background-repeat: no-repeat;
   background-position: center; }
 
-.brew--pale {
-  color: #c99212; }
-
-.brew--primordial {
-  color: #3e0042; }
-
-.brew--genetic {
-  color: #e1261c; }
-
 .brew__text {
   margin: 0; }
 
 .brew__percentage {
-  margin-bottom: 10px;
+  margin: 10px 0;
   color: black; }
 
 /* Footer */

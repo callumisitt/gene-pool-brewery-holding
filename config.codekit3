@@ -7,7 +7,7 @@
 		"uuidString": "303C779B-B509-4623-99F7-8223385C3CC6"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25504",
 "files": {
 	"\/favicon-152.png": {
 		"ft": 32768,
@@ -91,6 +91,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/paleo.png": {
+		"ft": 32768,
+		"iS": 111184,
+		"oA": 0,
+		"oAP": "\/images\/paleo.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/primordial-ooze.png": {
+		"ft": 32768,
+		"iS": 98691,
+		"oA": 0,
+		"oAP": "\/images\/primordial-ooze.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/images\/pump-clip.png": {
 		"ft": 32768,
 		"iS": 15236,
@@ -114,6 +130,16 @@
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/styles\/style-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/styles\/style-ck-ck.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/styles\/style.css": {
 		"aP": 0,
@@ -578,6 +604,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -742,6 +772,10 @@
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -771,6 +805,10 @@
 			"optionString": ""
 			},
 		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1106,6 +1144,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -1310,6 +1352,10 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -1337,6 +1383,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -2170,6 +2220,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
