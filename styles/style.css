@@ -123,6 +123,10 @@ input[type=submit] {
 	padding: 20px 0 60px;
 }
 
+.main a {
+	color: black;
+}
+
 /* Utilities */
 
 .dark {
@@ -274,4 +278,11 @@ input[type=submit] {
 	width: 25px;
 	height: 25px;
 	margin: 0 10px;
+}
+
+/* Buy Now */
+
+.buy-now {
+	justify-content: center;
+	padding: 20px;
 }
