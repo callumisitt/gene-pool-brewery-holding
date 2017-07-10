@@ -223,7 +223,7 @@ input[type=submit] {
 
 @media (max-width: 760px) {
 	.brew {
-		display: inline-block;
+		flex-basis: 50%;
 		margin-bottom: 30px;
 	}
 
