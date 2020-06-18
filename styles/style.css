@@ -1,5 +1,5 @@
 @import url('//hello.myfonts.net/count/322ac7');
-@font-face {font-family: 'VeneerClean-Reg';src: url('/fonts/322AC7_0_0.eot');src: url('/fonts/322AC7_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/322AC7_0_0.woff2') format('woff2'),url('/fonts/322AC7_0_0.woff') format('woff'),url('/fonts/322AC7_0_0.ttf') format('truetype');}
+@font-face {font-family: 'VeneerClean-Reg';src: url('../fonts/322AC7_0_0.eot');src: url('../fonts/322AC7_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/322AC7_0_0.woff2') format('woff2'),url('../fonts/322AC7_0_0.woff') format('woff'),url('../fonts/322AC7_0_0.ttf') format('truetype');}
 
 /* Elements */
 
@@ -247,7 +247,7 @@ input[type=submit] {
 	flex-grow: 1;
 	margin: 0 auto;
 	margin-bottom: 10px;
-	background-image: url('/images/pump-clip.png');
+	background-image: url('../images/pump-clip.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
